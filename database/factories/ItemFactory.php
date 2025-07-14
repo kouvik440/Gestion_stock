@@ -18,12 +18,12 @@ class ItemFactory extends Factory
     {
         return [
 
-        'nom' => $this->faker->word,
-        'reference' => strtoupper($this->faker->bothify('REF-####')),
-        'category_id' => \App\Models\Category::inRandomOrder()->first()->id ?? 1,
-        'quantite' => $this->faker->numberBetween(1, 100),
-        'date_ajout' => now(),
-        'statut' => 'Disponible'
+        //'nom' => $this->faker->word,
+       // 'reference' => strtoupper($this->faker->bothify('REF-####')),
+       // 'category_id' => \App\Models\Category::inRandomOrder()->first()->id ?? 1,
+       // 'quantite' => $this->faker->numberBetween(1, 100),
+       // 'date_ajout' => now(),
+       // 'statut' => 'Disponible'
 
         ];
     }
